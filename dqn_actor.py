@@ -68,7 +68,7 @@ if __name__ == '__main__':
                 'now_state': state.tolist(),
                 'action': action,
                 'reward': reward,
-                'next_state': next_state,
+                'next_state': next_state.tolist(),
                 'done': done,
             }))
             if done:
